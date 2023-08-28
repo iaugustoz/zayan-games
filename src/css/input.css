@@ -4,5 +4,25 @@
 @tailwind utilities;
 
 @layer components {
+
+    .superinfo-bg {
+        @apply bg-blue-750 text-white;
+    }
+
+    .superinfo {
+        @apply max-w-[960px] mx-auto flex justify-between flex-wrap pt-10px;
+    }
+
+    .menu-bg {
+        @apply bg-blue-550;
+    }
+
+    .menu {
+        @apply max-w-[960px] mx-auto py-15px px-0 flex flex-wrap justify-between items-center;
+    }
+
+    .menu-logo {
+        @apply text-4xl font-bold my-0 mx-15px; 
+    }
     
 }
