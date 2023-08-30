@@ -42,4 +42,17 @@
     .sobre-img {
         @apply flex-1.1 mx-10px ;
     }
+
+    /* Produtos */
+    .produtos {
+        @apply max-w-[960px] mx-auto py-60px;
+    }
+
+    .produtos-container {
+        @apply flex flex-wrap items-end;
+    }
+
+    .produtos-item {
+        @apply flex-1.2 m-10px;
+    }
 }
