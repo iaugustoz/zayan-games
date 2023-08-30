@@ -580,8 +580,64 @@ video {
   font-weight: 700;
 }
 
+/* Introdução */
+
+.introducao {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+/* Sobre */
+
+.sobre {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  max-width: 960px;
+  flex-wrap: wrap;
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: rgb(44 112 255 / var(--tw-border-opacity));
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.sobre-info {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  flex: 2 1 300px;
+}
+
+.sobre-img {
+  margin-left: 10px;
+  margin-right: 10px;
+  flex: 1 1 160px;
+}
+
 .m-\[0_10px_10px_10px\] {
   margin: 0 10px 10px 10px;
+}
+
+.mb-\[\.5em\] {
+  margin-bottom: .5em;
+}
+
+.mb-\[1em\] {
+  margin-bottom: 1em;
 }
 
 .block {
@@ -600,20 +656,29 @@ video {
   scroll-behavior: smooth;
 }
 
-.p-10 {
-  padding: 2.5rem;
-}
-
 .p-10px {
   padding: 10px;
+}
+
+.indent-4 {
+  text-indent: 1rem;
 }
 
 .font-nunito {
   font-family: Nunito, Helvetica, Arial, sans-serif;
 }
 
-.text-\[20px\] {
-  font-size: 20px;
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.leading-\[1\.5\] {
+  line-height: 1.5;
 }
 
 .text-black-700 {
@@ -621,19 +686,14 @@ video {
   color: rgb(34 34 34 / var(--tw-text-opacity));
 }
 
+.text-gray-550 {
+  --tw-text-opacity: 1;
+  color: rgb(124 124 124 / var(--tw-text-opacity));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.hover\:bg-blue-550:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(44 112 255 / var(--tw-bg-opacity));
-}
-
-.hover\:text-blue-550:hover {
-  --tw-text-opacity: 1;
-  color: rgb(44 112 255 / var(--tw-text-opacity));
 }
 
 .hover\:text-blue-750:hover {

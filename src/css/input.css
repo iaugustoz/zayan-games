@@ -25,4 +25,21 @@
         @apply text-4xl font-bold my-0 mx-15px; 
     }
     
+    /* Introdução */
+    .introducao {
+        @apply text-5xl font-bold leading-[1] max-w-[960px] mx-auto py-60px px-10px;
+    }
+
+    /* Sobre */
+    .sobre {
+        @apply border-y-2 border-solid border-blue-550 max-w-[960px] mx-auto py-60px px-0 flex flex-wrap;
+    }
+
+    .sobre-info {
+        @apply flex-2 my-0 mx-10px;
+    }
+
+    .sobre-img {
+        @apply flex-1.1 mx-10px ;
+    }
 }
