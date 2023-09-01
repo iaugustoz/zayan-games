@@ -4,6 +4,9 @@ module.exports = {
     './**/*.html',
     '.**/*.html',
   ],  theme: {
+    screens: {
+      'lg': {'max': '800px'},
+    },
     extend: {
       fontFamily: {
         'nunito': ['Nunito', 'Helvetica', 'Arial', 'sans-serif'],
@@ -21,6 +24,7 @@ module.exports = {
         
       },
       spacing: {
+        '6px': '6px',
         '10px': '10px',
         '15px': '15px',
         '20px': '20px',
@@ -29,6 +33,7 @@ module.exports = {
       flex: {
         '1.1': '1 1 160px',
         '1.2': '1 1 175px',
+        '1.3': '1 1 260px',
         '2': '2 1 300px',
       },
     },

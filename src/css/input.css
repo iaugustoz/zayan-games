@@ -55,4 +55,25 @@
     .produtos-item {
         @apply flex-1.2 m-10px;
     }
+
+    /* Seção dos Preços */
+    .preco-container {
+        @apply bg-gary-75 px-60px lg:px-10px flex flex-wrap items-end;
+    }
+
+    .preco-card {
+        @apply  flex-1.3 border-4 border-solid border-white p-20px m-10px;
+    }
+
+    .preco {
+        @apply max-w-[300px] block my-20px mx-auto text-center font-bold p-[10px_0_5px_0] border-t-4 border-b-4 border-solid border-white text-5xl;
+    }
+
+    .preco-lista {
+        @apply max-w-[300px] font-[1.25em] italic text-gray-550 my-20px mx-auto; 
+    }
+
+    .preco-botao {
+        @apply max-w-[300px] block m-[20px_auto] border-4 border-solid border-black-700 uppercase font-bold text-4xl p-[15px_0] text-center;
+    }
 }

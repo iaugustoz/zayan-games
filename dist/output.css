@@ -649,6 +649,98 @@ video {
   flex: 1 1 175px;
 }
 
+/* Seção dos Preços */
+
+.preco-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  --tw-bg-opacity: 1;
+  background-color: rgb(247 247 247 / var(--tw-bg-opacity));
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+@media (max-width: 800px) {
+  .preco-container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.preco-card {
+  margin: 10px;
+  flex: 1 1 260px;
+  border-width: 4px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+  padding: 20px;
+}
+
+.preco {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 300px;
+  border-top-width: 4px;
+  border-bottom-width: 4px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+  padding: 10px 0 5px 0;
+  text-align: center;
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.preco-lista {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300px;
+  font-weight: 1.25em;
+  font-style: italic;
+  --tw-text-opacity: 1;
+  color: rgb(124 124 124 / var(--tw-text-opacity));
+}
+
+.preco-botao {
+  margin: 20px auto;
+  display: block;
+  max-width: 300px;
+  border-width: 4px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: rgb(34 34 34 / var(--tw-border-opacity));
+  padding: 15px 0;
+  text-align: center;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.order-1 {
+  order: 1;
+}
+
+.order-2 {
+  order: 2;
+}
+
+.order-3 {
+  order: 3;
+}
+
+.order-4 {
+  order: 4;
+}
+
 .m-\[0_10px_10px_10px\] {
   margin: 0 10px 10px 10px;
 }
@@ -663,6 +755,10 @@ video {
 
 .mb-\[1em\] {
   margin-bottom: 1em;
+}
+
+.mt-20px {
+  margin-top: 20px;
 }
 
 .block {
@@ -723,12 +819,21 @@ video {
   padding-bottom: 60px;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .indent-4 {
   text-indent: 1rem;
 }
 
 .font-nunito {
   font-family: Nunito, Helvetica, Arial, sans-serif;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-5xl {
