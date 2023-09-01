@@ -534,6 +534,8 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+/* Cabeçalho do site */
+
 .superinfo-bg {
   --tw-bg-opacity: 1;
   background-color: rgb(18 42 178 / var(--tw-bg-opacity));
@@ -649,7 +651,7 @@ video {
   flex: 1 1 175px;
 }
 
-/* Seção dos Preços */
+/* Seção das Assinaturas */
 
 .preco-container {
   display: flex;
@@ -725,6 +727,26 @@ video {
   text-transform: uppercase;
 }
 
+/* Seção dos Valores */
+
+.qualidade-container {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  max-width: 960px;
+  flex-wrap: wrap;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.qualidade-item {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  flex: 1 1 300px;
+}
+
 .order-1 {
   order: 1;
 }
@@ -737,16 +759,16 @@ video {
   order: 3;
 }
 
-.order-4 {
-  order: 4;
-}
-
 .m-\[0_10px_10px_10px\] {
   margin: 0 10px 10px 10px;
 }
 
 .m-\[0_10px_60px_10px\] {
   margin: 0 10px 60px 10px;
+}
+
+.mb-20px {
+  margin-bottom: 20px;
 }
 
 .mb-\[\.5em\] {
@@ -761,12 +783,32 @@ video {
   margin-top: 20px;
 }
 
+.mr-10px {
+  margin-right: 10px;
+}
+
+.ml-10px {
+  margin-left: 10px;
+}
+
 .block {
   display: block;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
 .flex {
   display: flex;
+}
+
+.h-\[30px\] {
+  height: 30px;
+}
+
+.w-2 {
+  width: 0.5rem;
 }
 
 .flex-wrap {
@@ -805,6 +847,11 @@ video {
   background-color: rgb(247 247 247 / var(--tw-bg-opacity));
 }
 
+.bg-green-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
+}
+
 .p-10px {
   padding: 10px;
 }
@@ -817,6 +864,10 @@ video {
 .py-60px {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.pr-10px {
+  padding-right: 10px;
 }
 
 .text-center {
@@ -836,9 +887,19 @@ video {
   line-height: 2rem;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -847,6 +908,10 @@ video {
 
 .leading-\[1\.5\] {
   line-height: 1.5;
+}
+
+.leading-\[1\.4\] {
+  line-height: 1.4;
 }
 
 .text-black-700 {
@@ -867,6 +932,55 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.before\:mr-10px::before {
+  content: var(--tw-content);
+  margin-right: 10px;
+}
+
+.before\:inline-block::before {
+  content: var(--tw-content);
+  display: inline-block;
+}
+
+.before\:h-\[30px\]::before {
+  content: var(--tw-content);
+  height: 30px;
+}
+
+.before\:w-2::before {
+  content: var(--tw-content);
+  width: 0.5rem;
+}
+
+.before\:bg-green-500::before {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
+}
+
+.before\:bg-purple-450::before {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(174 129 255 / var(--tw-bg-opacity));
+}
+
+.before\:bg-pink-650::before {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 38 94 / var(--tw-bg-opacity));
+}
+
+.before\:bg-blue-350::before {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(102 217 235 / var(--tw-bg-opacity));
+}
+
+.before\:content-\[\'\'\]::before {
+  --tw-content: '';
+  content: var(--tw-content);
 }
 
 .hover\:text-blue-750:hover {
