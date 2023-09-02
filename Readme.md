@@ -4,9 +4,9 @@
 </div>
 
 ## Descrição
-Este repositório abriga o código-fonte do site Wildbeast, um emocionante projeto desenvolvido utilizando HTML e CSS. Explore o mundo dos animais enquanto mergulha na magia do design responsivo e da organização eficiente do CSS Grid.
+O Zayan Games é o resultado do meu trabalho como desenvolvedor web apaixonado por jogos. Elaborei uma plataforma onde entusiastas de jogos de todas as idades possam encontrar e desfrutar de uma ampla variedade de títulos emocionantes.
 
-O Wildbeast é um site único que oferece informações fascinantes sobre diversos animais fantásticos. Com uma abordagem visualmente envolvente e interativa, este projeto é um exemplo impressionante de como o HTML e o CSS podem ser combinados para criar uma experiência online cativante.
+Acredito que os jogos têm o poder de inspirar, desafiar e unir as pessoas. Com isso em mente, criei o Zayan Games para oferecer um espaço onde você pode mergulhar em aventuras virtuais e compartilhar momentos memoráveis com amigos e familiares.
 
 ## Status do projeto
 Projeto concluído.
@@ -21,13 +21,13 @@ Projeto concluído.
 1. Clone o repositório para o seu ambiente local:
 
 ```
-$ git clone https://github.com/igoraugustobrz/Wildbeast
+$ git clone https://github.com/igoraugustobrz/ZayanGames
 ```
 
 2. Navegue até o diretório do projeto.
 
 ```
-$ cd Wildbeast
+$ cd ZayanGames
 ```
 
 ## Contribuindo
