@@ -7,7 +7,7 @@
 
     /* Cabeçalho do site */
     .superinfo-bg {
-        @apply bg-blue-750 text-white;
+        @apply bg-black text-white; /*bg-blue-750*/
     }
 
     .superinfo {
@@ -15,7 +15,7 @@
     }
 
     .menu-bg {
-        @apply bg-blue-550;
+        @apply bg-purple-500; /*bg-blue-550*/
     }
 
     .menu {
@@ -33,7 +33,7 @@
 
     /* Sobre */
     .sobre {
-        @apply border-y-2 border-solid border-blue-550 max-w-[960px] mx-auto py-60px px-0 flex flex-wrap;
+        @apply border-y-2 border-solid border-purple-300 max-w-[960px] mx-auto py-60px px-0 flex flex-wrap;
     }
 
     .sobre-info {
@@ -102,6 +102,6 @@
 
     /* Seção do Rodapé */
     .footer {
-        @apply h-[200px] bg-blue-550 flex items-center;
+        @apply h-[200px] bg-purple-500 flex items-center;
     }
 }

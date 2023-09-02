@@ -12,15 +12,21 @@
     <!-- Inclusão do Tailwind CSS -->
     <link rel="stylesheet" href="dist/output.css">
 
-    <title>miniEcommerce</title>
+    <!-- Inclusão do JavaScipt -->
+    <script src="src/js/main.js" defer></script>
+
+    <!-- Inclusão do SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <title>Zayan Games</title>
 </head>
 
 <body class="font-nunito text-black-700">
     <div class="superinfo-bg">
         <div class="superinfo">
-            <p class="m-[0_10px_10px_10px]">Seg / Sex - 08:00 às 18:00</p>
-            <a class="m-[0_10px_10px_10px]" href="tel:+551199999-9999">+55 11 99999-9999</a>
-            <p>Av. Ali Perto, 330, Vila Olímpia - São Paulo</p>
+            <p class="m-[0_10px_10px_10px]"><a href="#">Minha Conta</a></p>
+            <p class="m-[0_10px_10px_10px]"><a href="#">Explorar Jogos</a></p>
+            <p class="m-[0_10px_10px_10px]"><a href="#">Central de Ajuda</a></p>
         </div>
     </div>
 
@@ -28,16 +34,16 @@
         <div class="menu">
 
             <div class="menu-logo">
-                <a class="text-white" href="#">Zayan Games</a>
+                <a class="text-white animate-pulse" href="#">Zayan Games</a>
             </div>
 
             <nav>
                 <ul>
                     <li class="flex flex-wrap">
-                        <a class="text-white text-20px block p-10px hover:text-blue-750" href="#sobre">Sobre</a>
-                        <a class="text-white text-20px block p-10px hover:text-blue-750" href="#produtos">Produtos</a>
-                        <a class="text-white text-20px block p-10px hover:text-blue-750" href="#preco">Preço</a>
-                        <a class="text-white text-20px block p-10px hover:text-blue-750" href="#qualidade">Sobre</a>
+                        <a class="text-white text-xl block p-10px hover:text-blue-750" href="#sobre">Sobre</a>
+                        <a class="text-white text-xl block p-10px hover:text-blue-750" href="#produtos">Produtos</a>
+                        <a class="text-white text-xl block p-10px hover:text-blue-750" href="#preco">Preço</a>
+                        <a class="text-white text-xl block p-10px hover:text-blue-750" href="#qualidade">Qualidade</a>
                     </li>
                 </ul>
             </nav>
@@ -45,22 +51,22 @@
         </div>
     </header>
 
-    <h1 class="introducao">Novos valores e<br>Propriedades de CSS</h1>
+    <h1 class="introducao">Zayan Games: Excelência em Entretenimento Digital</h1>
 
     <section class="sobre" id="sobre">
 
         <div class="sobre-info">
             <h1 class="text-5xl mb-[.5em] font-bold">Sobre</h1>
-            <p class="text-20px leading-[1.5] indent-4 mb-[1em] text-gray-550">O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas.</p>
-            <p class="text-20px leading-[1.5] indent-4 mb-[1em] text-gray-550">O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas.</p>
+            <p class="text-xl leading-[1.5] indent-5 mb-[1em] text-gray-550">Bem-vindo ao Zayan Games, o seu destino definitivo para entretenimento digital. Fundada com paixão e compromisso, nossa empresa nasceu do desejo de criar experiências de jogos excepcionais que cativem e inspirem jogadores em todo o mundo. Com uma equipe talentosa e dedicada, estamos empenhados em trazer diversão, inovação e qualidade aos nossos jogos.</p>
+            <p class="text-xl leading-[1.5] indent-5 mb-[1em] text-gray-550">Junte-se a nós em nossa jornada emocionante e descubra um mundo de aventuras virtuais que vão além das expectativas.</p>
         </div>
 
         <div class="sobre-img">
-            <img src="src/img/sobre1.jpg" alt="Sobre 1">
+            <img src="src/img/sobre1.png" alt="Sobre 1">
         </div>
 
         <div class="sobre-img">
-            <img src="src/img/sobre2.jpg" alt="Sobre 2">
+            <img src="src/img/sobre2.png" alt="Sobre 2">
         </div>
 
     </section>
@@ -88,46 +94,46 @@
     </section>
 
     <section class="preco-container" id="preco">
-        <div class="preco-card order-3">
+        <div class="preco-card lg:order-3">
             <h2 class="text-5xl font-bold text-gray-450 text-center mt-20px">Cobre</h2>
             <span class="preco"><sup class="text-2xl">R$</sup>39,99</span>
 
             <ul class="preco-lista">
-                <li class="preco-lista-item">Planos Ilimitados</li>
-                <li class="preco-lista-item">Acesso Restrito</li>
-                <li class="preco-lista-item">Conteúdo Secreto</li>
-                <li class="preco-lista-item">Suporte 24h</li>
+                <li class="preco-lista-item">Acesso a uma seleção inicial de jogos</li>
+                <li class="preco-lista-item">Atualizações regulares</li>
+                <li class="preco-lista-item">Suporte ao cliente básico</li>
             </ul>
 
             <a href="#" class="preco-botao">Comprar</a>
         </div>
 
-        <div class="preco-card order-2">
+        <div class="preco-card lg:order-2">
             <h2 class="text-5xl font-bold text-gray-450 text-center mt-20px">Prata</h2>
             <span class="preco"><sup class="text-2xl">R$</sup>79,99</span>
 
             <ul class="preco-lista">
-                <li class="">Planos Ilimitados</li>
-                <li class="preco-lista-item">Acesso Restrito</li>
-                <li class="preco-lista-item">Conteúdo Secreto</li>
-                <li class="preco-lista-item">Suporte 24h</li>
-                <li class="preco-lista-item">Compra Exclusiva</li>
+                <li class="preco-lista-item">Ampliação da biblioteca de jogos</li>
+                <li class="preco-lista-item">Prioridade nas atualizações de jogos</li>
+                <li class="preco-lista-item">Suporte ao cliente aprimorado</li>
+                <li class="preco-lista-item">Assinatura da EA Play incluída</li>
+                <li class="preco-lista-item">Descontos em compras de jogos e expansões</li>
             </ul>
 
             <a href="#" class="preco-botao">Comprar</a>
         </div>
 
-        <div class="preco-card order-1">
+        <div class="preco-card lg:order-1">
             <h2 class="text-5xl font-bold text-gray-450 text-center mt-20px">Ouro</h2>
             <span class="preco"><sup class="text-2xl">R$</sup>119,99</span>
 
             <ul class="preco-lista">
-                <li class="preco-lista-item">Planos Ilimitados</li>
-                <li class="preco-lista-item">Acesso Restrito</li>
-                <li class="preco-lista-item">Conteúdo Secreto</li>
-                <li class="preco-lista-item">Suporte 24h</li>
-                <li class="preco-lista-item">Compra Exclusiva</li>
-                <li class="preco-lista-item">Download dos Itens</li>
+                <li class="preco-lista-item">Acesso completo a uma vasta coleção de jogos</li>
+                <li class="preco-lista-item">Benefícios exclusivos</li>
+                <li class="preco-lista-item">Suporte ao cliente premium</li>
+                <li class="preco-lista-item">Assinatura da EA Play incluída
+                </li>
+                <li class="preco-lista-item">Streaming de jogos via nuvem</li>
+                <li class="preco-lista-item">Recompensas mensais</li>
             </ul>
 
             <a href="#" class="preco-botao">Comprar</a>
@@ -136,33 +142,37 @@
 
     <section class="qualidade-container" id="qualidade">
         <div class="qualidade-item">
-            <h2 class="text-4xl text-gray-450 mb-20px before:content-[''] before:inline-block before:w-2 before:h-[30px] before:mr-10px before:bg-purple-450">Inteligente</h2>
-            <p class="text-xl leading-[1.4] text-gray-550">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis fuga deleniti quis sit consequuntur! Quasi pariatur tenetur blanditiis repudiandae nobis ipsam eveniet reprehenderit ipsum? Blanditiis provident tempora maxime deserunt tempore.</p>
+            <h2 class="text-4xl text-gray-450 mb-20px before:content-[''] before:inline-block before:w-2 before:h-[30px] before:mr-10px before:bg-purple-450">Inovação</h2>
+            <p class="text-xl leading-[1.4] text-gray-550">Na Zayan Games, acreditamos que a inovação é a chave para o sucesso contínuo. Estamos constantemente explorando novas ideias e tecnologias para criar experiências de jogo surpreendentes e inovadoras.
+            </p>
         </div>
 
         <div class="qualidade-item">
-            <h2 class="text-4xl text-gray-450 mb-20px before:content-[''] before:inline-block before:w-2 before:h-[30px] before:mr-10px before:bg-pink-650">Compacto</h2>
-            <p class="text-xl leading-[1.4] text-gray-550">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis fuga deleniti quis sit consequuntur! Quasi pariatur tenetur blanditiis repudiandae nobis ipsam eveniet reprehenderit ipsum? Blanditiis provident tempora maxime deserunt tempore.</p>
+            <h2 class="text-4xl text-gray-450 mb-20px before:content-[''] before:inline-block before:w-2 before:h-[30px] before:mr-10px before:bg-pink-650">Comunicação</h2>
+            <p class="text-xl leading-[1.4] text-gray-550">Valorizamos a comunicação aberta e honesta. Mantemos nossos jogadores e equipe informados sobre nossos projetos, desafios e sucessos.
+            </p>
         </div>
 
         <div class="qualidade-item">
-            <h2 class="text-4xl text-gray-450 mb-20px before:content-[''] before:inline-block before:w-2 before:h-[30px] before:mr-10px before:bg-blue-350">Econômico</h2>
-            <p class="text-xl leading-[1.4] text-gray-550">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis fuga deleniti quis sit consequuntur! Quasi pariatur tenetur blanditiis repudiandae nobis ipsam eveniet reprehenderit ipsum? Blanditiis provident tempora maxime deserunt tempore.</p>
+            <h2 class="text-4xl text-gray-450 mb-20px before:content-[''] before:inline-block before:w-2 before:h-[30px] before:mr-10px before:bg-blue-350">Adaptação</h2>
+            <p class="text-xl leading-[1.4] text-gray-550">Abraçamos a mudança como uma oportunidade de crescimento. Estamos dispostos a evoluir e nos adaptar rapidamente às transformações do mercado e da tecnologia.
+            </p>
         </div>
 
         <div class="qualidade-item">
-            <h2 class="text-4xl text-gray-450 mb-20px before:content-[''] before:inline-block before:w-2 before:h-[30px] before:mr-10px before:bg-purple-450">Transparente</h2>
-            <p class="text-xl leading-[1.4] text-gray-550">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis fuga deleniti quis sit consequuntur! Quasi pariatur tenetur blanditiis repudiandae nobis ipsam eveniet reprehenderit ipsum? Blanditiis provident tempora maxime deserunt tempore.</p>
+            <h2 class="text-4xl text-gray-450 mb-20px before:content-[''] before:inline-block before:w-2 before:h-[30px] before:mr-10px before:bg-purple-450">Sustentável</h2>
+            <p class="text-xl leading-[1.4] text-gray-550">Buscamos crescimento sustentável a longo prazo. Isso significa tomar decisões que beneficiem nossa empresa, nossos jogadores e o mundo em que vivemos.</p>
         </div>
 
         <div class="qualidade-item">
-            <h2 class="text-4xl text-gray-450 mb-20px before:content-[''] before:inline-block before:w-2 before:h-[30px] before:mr-10px before:bg-pink-650">Opaco</h2>
-            <p class="text-xl leading-[1.4] text-gray-550">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis fuga deleniti quis sit consequuntur! Quasi pariatur tenetur blanditiis repudiandae nobis ipsam eveniet reprehenderit ipsum? Blanditiis provident tempora maxime deserunt tempore.</p>
+            <h2 class="text-4xl text-gray-450 mb-20px before:content-[''] before:inline-block before:w-2 before:h-[30px] before:mr-10px before:bg-pink-650">Diversidade</h2>
+            <p class="text-xl leading-[1.4] text-gray-550">Celebramos a diversidade em nossa equipe e em nossos jogos. Acreditamos que a inclusão de diferentes perspectivas e culturas enriquece nossos produtos e nossa comunidade de jogadores.</p>
         </div>
 
         <div class="qualidade-item">
-            <h2 class="text-4xl text-gray-450 mb-20px before:content-[''] before:inline-block before:w-2 before:h-[30px] before:mr-10px before:bg-blue-350">Sustentável</h2>
-            <p class="text-xl leading-[1.4] text-gray-550">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis fuga deleniti quis sit consequuntur! Quasi pariatur tenetur blanditiis repudiandae nobis ipsam eveniet reprehenderit ipsum? Blanditiis provident tempora maxime deserunt tempore.</p>
+            <h2 class="text-4xl text-gray-450 mb-20px before:content-[''] before:inline-block before:w-2 before:h-[30px] before:mr-10px before:bg-blue-350">Qualidade</h2>
+            <p class="text-xl leading-[1.4] text-gray-550">Nunca comprometemos a qualidade de nossos jogos. Estabelecemos padrões rigorosos para garantir que cada jogo que lançamos seja polido, envolvente e confiável.
+            </p>
         </div>
     </section>
 
@@ -172,13 +182,13 @@
             <p class="text-xl italic max-w-[230px] text-gray-550 mb-10px">assine e fique por dentro das novidades</p>
         </div>
         <form class="newsletter-form">
-            <input class="flex-3 text-[20px] text-gray-550 italic font-nunito border-4 border-solid border-blue-550 bg-transparent focus:outline-blue-750 p-10px my-0 rounded-[0px]" type="email" name="email" placeholder="email@dominio.com">
-            <button class="flex-1.25 font-nunito text-4xl font-bold uppercase bg-blue-550 text-white m-0 cursor-pointer py-15px px-10px md:text-2xl" type="submit">Assinar</button>
+            <input class="flex-3 text-xl text-gray-550 italic font-nunito border-4 border-solid border-purple-500 bg-transparent focus:outline-blue-750 p-10px my-0 rounded-[0px]" type="email" name="email" placeholder="email@dominio.com">
+            <button class="flex-1.25 font-nunito text-4xl font-bold uppercase bg-purple-500 text-white m-0 cursor-pointer py-15px px-10px md:text-2xl" type="submit" id="btnSubmit">Assinar</button>
         </form>
     </section>
 
     <footer class="footer">
-        <p class="flex-1 text-center text-5xl text-blue-750">© Todos os direitos reservados.</p>
+        <p class="flex-1 text-center text-4xl text-blue-75">Zayan Games © Todos os direitos reservados.</p>
     </footer>
 
 </body>

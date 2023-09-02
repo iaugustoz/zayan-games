@@ -21,8 +21,7 @@ module.exports = {
         'purple-450': '#AE81FF',
         'gray-75': '#F7F7F7',
         'gray-450': '#A4A4A4',
-        'gray-550': '#7C7C7C',
-        
+        'gray-550': '#7C7C7C',        
       },
       spacing: {
         '6px': '6px',
