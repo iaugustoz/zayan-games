@@ -779,6 +779,16 @@ video {
   align-self: center;
 }
 
+/* Seção do Rodapé */
+
+.footer {
+  display: flex;
+  height: 200px;
+  align-items: center;
+  --tw-bg-opacity: 1;
+  background-color: rgb(44 112 255 / var(--tw-bg-opacity));
+}
+
 .order-1 {
   order: 1;
 }
@@ -840,16 +850,16 @@ video {
   max-width: 230px;
 }
 
-.flex-3 {
-  flex: 3 1 200px;
-}
-
 .flex-1 {
   flex: 1 1 0%;
 }
 
 .flex-1\.25 {
   flex: 1 1 200px;
+}
+
+.flex-3 {
+  flex: 3 1 200px;
 }
 
 .cursor-pointer {
@@ -1009,6 +1019,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-blue-750 {
+  --tw-text-opacity: 1;
+  color: rgb(18 42 178 / var(--tw-text-opacity));
+}
+
 .before\:mr-10px::before {
   content: var(--tw-content);
   margin-right: 10px;
@@ -1059,4 +1074,11 @@ video {
 
 .focus\:outline-blue-750:focus {
   outline-color: #122ab2;
+}
+
+@media (max-width: 600px) {
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }

@@ -5,6 +5,7 @@ module.exports = {
     '.**/*.html',
   ],  theme: {
     screens: {
+      'md': {'max': '600px'},
       'lg': {'max': '800px'},
     },
     extend: {

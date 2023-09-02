@@ -99,4 +99,9 @@
     .newsletter-form {
         @apply flex-2.1 my-0 mx-10px flex self-center flex-wrap;
     }
+
+    /* Seção do Rodapé */
+    .footer {
+        @apply h-[200px] bg-blue-550 flex items-center;
+    }
 }
