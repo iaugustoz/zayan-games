@@ -1,4 +1,4 @@
-# Nome do Projeto
+# Zayan Games
 <div align="center">
 <img src="img/site.png" width="2000px" alt="Imagem do site" title="Imagem do site"/>
 </div>
@@ -9,7 +9,7 @@ O Zayan Games é o resultado do meu trabalho como desenvolvedor web apaixonado p
 Acredito que os jogos têm o poder de inspirar, desafiar e unir as pessoas. Com isso em mente, criei o Zayan Games para oferecer um espaço onde você pode mergulhar em aventuras virtuais e compartilhar momentos memoráveis com amigos e familiares.
 
 ## Status do projeto
-Projeto concluído.
+Projeto em andamento.
 
 ## Pré-requisitos
 
