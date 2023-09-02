@@ -59,7 +59,7 @@
 
     /* Seção das Assinaturas */
     .preco-container {
-        @apply bg-gary-75 px-60px lg:px-10px flex flex-wrap items-end;
+        @apply bg-gray-75 px-60px lg:px-10px flex flex-wrap items-end;
     }
 
     .preco-card {
@@ -85,5 +85,18 @@
 
     .qualidade-item {
         @apply flex-1.4 my-20px mx-10px;
+    }
+
+    /* Seção Newsletter */
+    .newsletter {
+        @apply bg-gray-75 py-60px px-[calc((100%-960px)/2)] flex flex-wrap;
+    }
+
+    .newsletter-info {
+        @apply flex-1.3 my-0 mx-10px;
+    }
+
+    .newsletter-form {
+        @apply flex-2.1 my-0 mx-10px flex self-center flex-wrap;
     }
 }
