@@ -3,10 +3,11 @@ module.exports = {
   content: [
     './**/*.html',
     '.**/*.html',
-  ],  theme: {
+  ], theme: {
     screens: {
-      'md': {'max': '600px'},
-      'lg': {'max': '800px'},
+      'sm': { 'max': '360px' },
+      'md': { 'max': '600px' },
+      'lg': { 'max': '980px' },
     },
     extend: {
       fontFamily: {
@@ -14,14 +15,9 @@ module.exports = {
       },
       colors: {
         'black-700': '#222222',
-        'blue-750': '#122ab2',
-        'blue-550': '#2C70FF',
-        'blue-350': '#66D9EB',
-        'pink-650': '#F9265E',
-        'purple-450': '#AE81FF',
         'gray-75': '#F7F7F7',
         'gray-450': '#A4A4A4',
-        'gray-550': '#7C7C7C',        
+        'gray-550': '#7C7C7C',
       },
       spacing: {
         '6px': '6px',

@@ -12,38 +12,41 @@
     <!-- Inclusão do Tailwind CSS -->
     <link rel="stylesheet" href="dist/output.css">
 
-    <!-- Inclusão do JavaScipt -->
-    <script src="src/js/main.js" defer></script>
+    <!-- Ícone da guia -->
+    <link rel="shortcut icon" href="src/img/favicon.png" type="image/x-icon">
 
-    <!-- Inclusão do SweetAlert2 -->
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Inclusão do FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>Zayan Games</title>
 </head>
 
 <body class="font-nunito text-black-700">
+
+    <!-- HEADER SUPERIOR  -->
     <div class="superinfo-bg">
         <div class="superinfo">
-            <p class="m-[0_10px_10px_10px]"><a href="#">Minha Conta</a></p>
-            <p class="m-[0_10px_10px_10px]"><a href="#">Explorar Jogos</a></p>
-            <p class="m-[0_10px_10px_10px]"><a href="#">Central de Ajuda</a></p>
+            <p class="superinfo-link"><a href="#">Minha Conta</a></p>
+            <p class="superinfo-link"><a href="#">Explorar Jogos</a></p>
+            <p class="superinfo-link"><a href="#">Central de Ajuda</a></p>
         </div>
     </div>
 
+    <!-- HEADER INFERIOR -->
     <header class="menu-bg">
         <div class="menu">
 
-            <div class="menu-logo">
+            <div class="menu-logo" id="inicio">
                 <a class="text-white animate-pulse" href="#">Zayan Games</a>
             </div>
 
             <nav>
                 <ul>
                     <li class="flex flex-wrap">
-                        <a class="text-white text-xl block p-10px hover:text-blue-750" href="#sobre">Sobre</a>
-                        <a class="text-white text-xl block p-10px hover:text-blue-750" href="#produtos">Produtos</a>
-                        <a class="text-white text-xl block p-10px hover:text-blue-750" href="#preco">Preço</a>
-                        <a class="text-white text-xl block p-10px hover:text-blue-750" href="#qualidade">Qualidade</a>
+                        <a class="text-white text-xl block p-10px hover:scale-110 transition duration-400" href="#sobre">Sobre</a>
+                        <a class="text-white text-xl block p-10px hover:scale-110 transition duration-400" href="#produtos">Produtos</a>
+                        <a class="text-white text-xl block p-10px hover:scale-110 transition duration-400" href="#preco">Preço</a>
+                        <a class="text-white text-xl block p-10px hover:scale-110 transition duration-400" href="#valores">Valores</a>
                     </li>
                 </ul>
             </nav>
@@ -53,10 +56,11 @@
 
     <h1 class="introducao">Zayan Games: Excelência em Entretenimento Digital</h1>
 
+    <!-- SOBRE -->
     <section class="sobre" id="sobre">
 
         <div class="sobre-info">
-            <h1 class="text-5xl mb-[.5em] font-bold">Sobre</h1>
+            <h1 class="text-5xl sm:text-4xl mb-[.5em] font-bold">Sobre</h1>
             <p class="text-xl leading-[1.5] indent-5 mb-[1em] text-gray-550">Bem-vindo ao Zayan Games, o seu destino definitivo para entretenimento digital. Fundada com paixão e compromisso, nossa empresa nasceu do desejo de criar experiências de jogos excepcionais que cativem e inspirem jogadores em todo o mundo. Com uma equipe talentosa e dedicada, estamos empenhados em trazer diversão, inovação e qualidade aos nossos jogos.</p>
             <p class="text-xl leading-[1.5] indent-5 mb-[1em] text-gray-550">Junte-se a nós em nossa jornada emocionante e descubra um mundo de aventuras virtuais que vão além das expectativas.</p>
         </div>
@@ -71,28 +75,30 @@
 
     </section>
 
+    <!-- PRODUTOS -->
     <section class="produtos" id="produtos">
-        <h1 class="text-5xl font-bold m-[0_10px_60px_10px]">Produtos</h1>
+        <h1 class="text-5xl sm:text-4xl font-bold m-[0_10px_60px_10px]">Produtos</h1>
         <div class="produtos-container">
 
-            <div class="produtos-item border-t-8 border-solid border-purple-450">
-                <h2 class="text-5xl text-gray-450 font-bold bg-gary-75 py-60px px-20px">Purple</h2>
-                <img src="src/img/produtos1.jpg" alt="Produtos 1">
+            <div class="produtos-item border-t-8 border-solid border-purple-700">
+                <h2 class="text-5xl text-gray-450 font-bold bg-gary-75 py-60px px-20px">GTA V</h2>
+                <img src="src/img/produtos1.png" alt="GTA V">
             </div>
 
-            <div class="produtos-item border-t-8 border-solid border-pink-650">
-                <h2 class="text-5xl text-gray-450 font-bold bg-gary-75 py-60px px-20px">Pink</h2>
-                <img src="src/img/produtos2.jpg" alt="Produtos 2">
+            <div class="produtos-item border-t-8 border-solid border-red-600">
+                <h2 class="text-5xl text-gray-450 font-bold bg-gary-75 py-60px px-20px">Cyberpunk 2077</h2>
+                <img src="src/img/produtos2.png" alt="Cyberpunk 2077">
             </div>
 
-            <div class="produtos-item border-t-8 border-solid border-blue-350">
-                <h2 class="text-5xl text-gray-450 font-bold bg-gary-75 py-60px px-20px">Blue</h2>
-                <img src="src/img/produtos3.jpg" alt="Produtos 3">
+            <div class="produtos-item border-t-8 border-solid border-green-700">
+                <h2 class="text-5xl text-gray-450 font-bold bg-gary-75 py-60px px-20px">FIFA 23</h2>
+                <img src="src/img/produtos3.png" alt="FIFA 23">
             </div>
 
         </div>
     </section>
 
+    <!-- PREÇO -->
     <section class="preco-container" id="preco">
         <div class="preco-card lg:order-3">
             <h2 class="text-5xl font-bold text-gray-450 text-center mt-20px">Cobre</h2>
@@ -140,55 +146,65 @@
         </div>
     </section>
 
-    <section class="qualidade-container" id="qualidade">
-        <div class="qualidade-item">
-            <h2 class="text-4xl text-gray-450 mb-20px before:content-[''] before:inline-block before:w-2 before:h-[30px] before:mr-10px before:bg-purple-450">Inovação</h2>
+    <!-- VALORES -->
+    <section class="valores-container" id="valores">
+        <div class="valores-item">
+            <h2 class="text-4xl text-gray-450 mb-20px before:content-[''] before:inline-block before:w-2 before:h-[30px] before:mr-10px before:bg-purple-700">Inovação</h2>
             <p class="text-xl leading-[1.4] text-gray-550">Na Zayan Games, acreditamos que a inovação é a chave para o sucesso contínuo. Estamos constantemente explorando novas ideias e tecnologias para criar experiências de jogo surpreendentes e inovadoras.
             </p>
         </div>
 
-        <div class="qualidade-item">
-            <h2 class="text-4xl text-gray-450 mb-20px before:content-[''] before:inline-block before:w-2 before:h-[30px] before:mr-10px before:bg-pink-650">Comunicação</h2>
+        <div class="valores-item">
+            <h2 class="text-4xl text-gray-450 mb-20px before:content-[''] before:inline-block before:w-2 before:h-[30px] before:mr-10px before:bg-red-600">Comunicação</h2>
             <p class="text-xl leading-[1.4] text-gray-550">Valorizamos a comunicação aberta e honesta. Mantemos nossos jogadores e equipe informados sobre nossos projetos, desafios e sucessos.
             </p>
         </div>
 
-        <div class="qualidade-item">
-            <h2 class="text-4xl text-gray-450 mb-20px before:content-[''] before:inline-block before:w-2 before:h-[30px] before:mr-10px before:bg-blue-350">Adaptação</h2>
+        <div class="valores-item">
+            <h2 class="text-4xl text-gray-450 mb-20px before:content-[''] before:inline-block before:w-2 before:h-[30px] before:mr-10px before:bg-green-700">Adaptação</h2>
             <p class="text-xl leading-[1.4] text-gray-550">Abraçamos a mudança como uma oportunidade de crescimento. Estamos dispostos a evoluir e nos adaptar rapidamente às transformações do mercado e da tecnologia.
             </p>
         </div>
 
-        <div class="qualidade-item">
-            <h2 class="text-4xl text-gray-450 mb-20px before:content-[''] before:inline-block before:w-2 before:h-[30px] before:mr-10px before:bg-purple-450">Sustentável</h2>
+        <div class="valores-item">
+            <h2 class="text-4xl text-gray-450 mb-20px before:content-[''] before:inline-block before:w-2 before:h-[30px] before:mr-10px before:bg-purple-700">Sustentável</h2>
             <p class="text-xl leading-[1.4] text-gray-550">Buscamos crescimento sustentável a longo prazo. Isso significa tomar decisões que beneficiem nossa empresa, nossos jogadores e o mundo em que vivemos.</p>
         </div>
 
-        <div class="qualidade-item">
-            <h2 class="text-4xl text-gray-450 mb-20px before:content-[''] before:inline-block before:w-2 before:h-[30px] before:mr-10px before:bg-pink-650">Diversidade</h2>
+        <div class="valores-item">
+            <h2 class="text-4xl text-gray-450 mb-20px before:content-[''] before:inline-block before:w-2 before:h-[30px] before:mr-10px before:bg-red-600">Diversidade</h2>
             <p class="text-xl leading-[1.4] text-gray-550">Celebramos a diversidade em nossa equipe e em nossos jogos. Acreditamos que a inclusão de diferentes perspectivas e culturas enriquece nossos produtos e nossa comunidade de jogadores.</p>
         </div>
 
-        <div class="qualidade-item">
-            <h2 class="text-4xl text-gray-450 mb-20px before:content-[''] before:inline-block before:w-2 before:h-[30px] before:mr-10px before:bg-blue-350">Qualidade</h2>
+        <div class="valores-item">
+            <h2 class="text-4xl text-gray-450 mb-20px before:content-[''] before:inline-block before:w-2 before:h-[30px] before:mr-10px before:bg-green-700">Qualidade</h2>
             <p class="text-xl leading-[1.4] text-gray-550">Nunca comprometemos a qualidade de nossos jogos. Estabelecemos padrões rigorosos para garantir que cada jogo que lançamos seja polido, envolvente e confiável.
             </p>
         </div>
     </section>
 
+    <!-- NEWSLETTER -->
     <section class="newsletter">
         <div class="newsletter-info">
-            <h1 class="text-5xl text-gray-450">Newsletter</h1>
+            <h1 class="text-5xl sm:text-4xl text-gray-450">Newsletter</h1>
             <p class="text-xl italic max-w-[230px] text-gray-550 mb-10px">assine e fique por dentro das novidades</p>
         </div>
         <form class="newsletter-form">
-            <input class="flex-3 text-xl text-gray-550 italic font-nunito border-4 border-solid border-purple-500 bg-transparent focus:outline-blue-750 p-10px my-0 rounded-[0px]" type="email" name="email" placeholder="email@dominio.com">
-            <button class="flex-1.25 font-nunito text-4xl font-bold uppercase bg-purple-500 text-white m-0 cursor-pointer py-15px px-10px md:text-2xl" type="submit" id="btnSubmit">Assinar</button>
+            <input class="flex-3 text-xl text-gray-550 italic font-nunito border-4 border-solid border-purple-700 bg-transparent p-10px my-0 rounded-[0px]" type="email" name="email" placeholder="email@dominio.com" required>
+            <button type="submit" class="flex-1.25 font-nunito text-4xl font-bold uppercase bg-purple-700 text-white m-0 cursor-pointer py-15px px-10px md:text-2xl" id="btnSubmit">Assinar</button>
         </form>
     </section>
 
+    <!-- FOOTER -->
     <footer class="footer">
-        <p class="flex-1 text-center text-4xl text-blue-75">Zayan Games © Todos os direitos reservados.</p>
+        <div class="flex  md:flex-col lg:flex-col justify-between max-w-[960px] mx-auto w-full">
+            <p class="text-white text-center text-3xl lg:text-2xl lg:text-blue-75 md:mb-4 lg:mb-4">Copyrigtht © 2023 by Igor Augusto | Some Rights Reserved</p>
+            <div class="flex md:w-full md:justify-center lg:w-full lg:justify-center gap-x-5 items-center">
+                <a href="https://github.com/igoraugustobrz" target="_blank"><i class="fa-brands fa-square-github text-white text-3xl active:scale-110 transition duration-300"></i></a>
+                <a href="https://www.linkedin.com/in/igorbrz/" target="_blank"><i class="fa-brands fa-linkedin text-white text-3xl active:scale-110 transition duration-300"></i></a>
+                <a href="https://wa.me/qr/DAF4OFJFFV2FC1" target="_blank"><i class="fa-brands fa-whatsapp text-white text-3xl active:scale-110 transition duration-300"></i></a>
+            </div>
+        </div>
     </footer>
 
 </body>

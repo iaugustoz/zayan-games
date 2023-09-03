@@ -7,15 +7,19 @@
 
     /* Cabeçalho do site */
     .superinfo-bg {
-        @apply bg-black text-white; /*bg-blue-750*/
+        @apply bg-black text-white;
     }
 
     .superinfo {
         @apply max-w-[960px] mx-auto flex justify-between flex-wrap pt-10px;
     }
 
+    .superinfo-link {
+        @apply m-[0_10px_10px_10px] hover:scale-105 hover:text-purple-500 hover:font-bold transition duration-300;
+    }
+
     .menu-bg {
-        @apply bg-purple-500; /*bg-blue-550*/
+        @apply bg-purple-700;
     }
 
     .menu {
@@ -28,7 +32,7 @@
     
     /* Introdução */
     .introducao {
-        @apply text-5xl font-bold leading-[1] max-w-[960px] mx-auto py-60px px-10px;
+        @apply text-5xl sm:text-4xl font-bold leading-[1] max-w-[960px] mx-auto py-60px px-10px;
     }
 
     /* Sobre */
@@ -75,15 +79,15 @@
     }
 
     .preco-botao {
-        @apply max-w-[300px] block m-[20px_auto] border-4 border-solid border-black-700 uppercase font-bold text-4xl p-[15px_0] text-center;
+        @apply max-w-[300px] block m-[20px_auto] border-4 border-solid border-black-700 uppercase font-bold text-4xl p-[15px_0] text-center hover:bg-black hover:text-white hover:border-black transition duration-300;
     }
 
     /* Seção dos Valores */
-    .qualidade-container {
+    .valores-container {
         @apply max-w-[960px] py-60px mx-auto flex flex-wrap;
     }
 
-    .qualidade-item {
+    .valores-item {
         @apply flex-1.4 my-20px mx-10px;
     }
 
@@ -102,6 +106,34 @@
 
     /* Seção do Rodapé */
     .footer {
-        @apply h-[200px] bg-purple-500 flex items-center;
+        @apply h-[200px] bg-purple-700 flex items-center;
     }
+}
+
+@layer base {
+/* =======================
+   Background da Scrollbar
+    Chorme, Edge e Safari
+   ======================= */
+   ::-webkit-scrollbar {
+    width: 12px;
+    border: 5px solid #ffffff;
+}
+  
+/* =====================
+          ScrollBar
+     Chorme, Edge e Safari
+   ===================== */
+::-webkit-scrollbar-thumb {
+    background-color: #A855F7;
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+}
+
+/* =====================
+     ScrollBar Firefox
+   ===================== */
+html {
+    scrollbar-color: #A855F7;
+}
 }
