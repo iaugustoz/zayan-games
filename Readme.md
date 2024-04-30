@@ -1,15 +1,18 @@
 # Zayan Games
+
 <div align="center">
 <img src="src/img/site.png" width="2000px" alt="Imagem do site" title="Imagem do site"/>
 </div>
 
 ## Descrição
+
 O Zayan Games é o resultado do meu trabalho como desenvolvedor web apaixonado por jogos. Elaborei uma plataforma onde entusiastas de jogos de todas as idades possam encontrar e desfrutar de uma ampla variedade de títulos emocionantes.
 
 Acredito que os jogos têm o poder de inspirar, desafiar e unir as pessoas. Com isso em mente, criei o Zayan Games para oferecer um espaço onde você pode mergulhar em aventuras virtuais e compartilhar momentos memoráveis com amigos e familiares.
 
 ## Status do projeto
-Projeto em andamento.
+
+Projeto concluído.
 
 ## Pré-requisitos
 
